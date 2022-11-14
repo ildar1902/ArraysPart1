@@ -29,5 +29,14 @@ public class Main {
         arr1[2] = 3;
         double[] arr2 = {1.57, 7.654, 9.986};
         int [] arr3 = {3, 2, 1};
+
+        //Задание 2.
+        System.out.println();
+        System.out.println("    Задание 2");
+        System.out.println();
+        System.out.println(arr1[0] + ", " + arr1[1] + ", " + arr1[2]);
+        System.out.println(arr2[0] + ", " + arr2[1] + ", " + arr2[2]);
+        System.out.println(arr3[0] + ", " + arr3[1] + ", " + arr3[2]);
+
     }
 }
