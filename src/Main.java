@@ -38,5 +38,14 @@ public class Main {
         System.out.println(arr2[0] + ", " + arr2[1] + ", " + arr2[2]);
         System.out.println(arr3[0] + ", " + arr3[1] + ", " + arr3[2]);
 
+        //Задание 3.
+        System.out.println();
+        System.out.println("    Задание 3");
+        System.out.println();
+        System.out.println(arr1[2] + ", " + arr1[1] + ", " + arr1[0]);
+        System.out.println(arr2[2] + ", " + arr2[1] + ", " + arr2[0]);
+        System.out.println(arr3[2] + ", " + arr3[1] + ", " + arr3[0]);
+
+
     }
 }
