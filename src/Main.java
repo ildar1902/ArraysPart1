@@ -48,14 +48,14 @@ public class Main {
 
         //Задание 4.
         System.out.println();
-        System.out.println("    Задание 3");
+        System.out.println("    Задание 4");
         System.out.println();
-        arr1[0]++;
-        arr1[2]++;
         for (int i = 0; i < arr1.length; i++) {
+            if (arr1[i] % 2 > 0) {
+                arr1[i] += 1;
+            }
             System.out.println(arr1[i]);
         }
     }
-
 
 }
