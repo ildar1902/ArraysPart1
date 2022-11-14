@@ -15,8 +15,19 @@ public class Main {
         System.out.println(weights[november]);
         for (int i = 0; i < weights.length; i++) {
             System.out.println(weights[i]);
+                              }
 
+        // Массивы чать 1. ДЗ.
+        //Задание 1.
+        System.out.println();
+        System.out.println("    Задание 1");
+        System.out.println();
 
-        }
+        int[] arr1 = new int[3];
+        arr1[0] = 1;
+        arr1[1] = 2;
+        arr1[2] = 3;
+        double[] arr2 = {1.57, 7.654, 9.986};
+        int [] arr3 = {3, 2, 1};
     }
 }
