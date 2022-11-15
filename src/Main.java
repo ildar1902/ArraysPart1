@@ -6,16 +6,12 @@ public class Main {
         System.out.println("    Черновик");
         System.out.println();
         int[] weights = {85, 84, 86, 83, 82, 81, 83, 80, 85, 86, 83, 0};
-        weights[10] = 83;
         int novemberWeight = weights[10];
         System.out.println("Вес в ноябре равен " + novemberWeight + " кг");
         System.out.println(weights[10]);
         System.out.println(weights[5]);
         int november = 10;
         System.out.println(weights[november]);
-        for (int i = 0; i < weights.length; i++) {
-            System.out.println(weights[i]);
-        }
 
         // Массивы чать 1. ДЗ.
         //Задание 1.
@@ -33,18 +29,50 @@ public class Main {
         //Задание 2.
         System.out.println();
         System.out.println("    Задание 2");
-        System.out.println();
-        System.out.println(arr1[0] + ", " + arr1[1] + ", " + arr1[2]);
-        System.out.println(arr2[0] + ", " + arr2[1] + ", " + arr2[2]);
-        System.out.println(arr3[0] + ", " + arr3[1] + ", " + arr3[2]);
 
+        for (int i = 0; i < arr1.length; i++) {
+            System.out.print(arr1[i]);
+            if (i != arr1.length - 1) {
+                System.out.print(", ");
+            }
+        }
+        System.out.println();
+        for (int i = 0; i < arr2.length; i++) {
+            System.out.print(arr2[i]);
+            if (i != arr2.length - 1) {
+                System.out.print(", ");
+            }
+        }
+        System.out.println();
+        for (int i = 0; i < arr3.length; i++) {
+            System.out.print(arr3[i]);
+            if (i != arr3.length - 1) {
+                System.out.print(", ");
+            }
+        }
         //Задание 3.
         System.out.println();
         System.out.println("    Задание 3");
+        for (int i = arr1.length - 1; i >= 0; i--) {
+            System.out.print(arr1[i]);
+            if (i != 0) {
+                System.out.print(", ");
+            }
+        }
         System.out.println();
-        System.out.println(arr1[2] + ", " + arr1[1] + ", " + arr1[0]);
-        System.out.println(arr2[2] + ", " + arr2[1] + ", " + arr2[0]);
-        System.out.println(arr3[2] + ", " + arr3[1] + ", " + arr3[0]);
+        for (int i = arr2.length - 1; i >= 0; i--) {
+            System.out.print(arr2[i]);
+            if (i != 0) {
+                System.out.print(", ");
+            }
+        }
+        System.out.println();
+        for (int i = arr3.length - 1; i >= 0; i--) {
+            System.out.print(arr3[i]);
+            if (i != 0) {
+                System.out.print(", ");
+            }
+        }
 
         //Задание 4.
         System.out.println();
@@ -57,5 +85,4 @@ public class Main {
             System.out.println(arr1[i]);
         }
     }
-
 }
